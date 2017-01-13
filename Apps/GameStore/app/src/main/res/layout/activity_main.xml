@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.gamestore.MainActivity"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/games"
+        android:id="@+id/imageView5"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textSize="30sp"
+        android:text="GameStore"
+        tools:targetApi="jelly_bean" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-light"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Get your games here at the GameStore! We sell lots of games, from action to kids games. We got them all!"
+        tools:targetApi="jelly_bean" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp"
+        tools:targetApi="jelly_bean" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone number: 036 78345119"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        tools:targetApi="jelly_bean" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="email: gamestoresupport@gmail.com"
+        android:fontFamily="sans-serif-light"
+        tools:targetApi="jelly_bean" />
+
+</LinearLayout>
